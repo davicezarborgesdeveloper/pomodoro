@@ -17,9 +17,9 @@ class CronometroBotao extends StatelessWidget {
     return ElevatedButton(
       style: ElevatedButton.styleFrom(
         backgroundColor: Colors.black,
-        padding: const EdgeInsets.symmetric(
-          horizontal: 30,
-          vertical: 20,
+        padding: EdgeInsets.symmetric(
+          horizontal: MediaQuery.of(context).size.width * 0.07,
+          vertical: MediaQuery.of(context).size.height * 0.024,
         ),
         textStyle: const TextStyle(
           fontSize: 25,
